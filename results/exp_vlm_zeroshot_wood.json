@@ -1,0 +1,33 @@
+{
+  "model": "PaliGemma-3B-mix (zero-shot)",
+  "category": "wood",
+  "accuracy": 0.9393939393939394,
+  "auc": 0.9285714285714286,
+  "report": {
+    "good": {
+      "precision": 0.9047619047619048,
+      "recall": 1.0,
+      "f1-score": 0.95,
+      "support": 19.0
+    },
+    "defective": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9230769230769231,
+      "support": 14.0
+    },
+    "accuracy": 0.9393939393939394,
+    "macro avg": {
+      "precision": 0.9523809523809523,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9365384615384615,
+      "support": 33.0
+    },
+    "weighted avg": {
+      "precision": 0.9451659451659451,
+      "recall": 0.9393939393939394,
+      "f1-score": 0.9385780885780886,
+      "support": 33.0
+    }
+  }
+}

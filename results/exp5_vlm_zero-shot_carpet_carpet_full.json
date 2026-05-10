@@ -1,0 +1,35 @@
+{
+  "backbone": "PaliGemma-3B (pre-trained, no fine-tuning)",
+  "source": "carpet",
+  "target": "carpet",
+  "n_shot": null,
+  "accuracy": 0.9375,
+  "auc": 1.0,
+  "report": {
+    "good": {
+      "precision": 1.0,
+      "recall": 0.8928571428571429,
+      "f1-score": 0.9433962264150944,
+      "support": 28.0
+    },
+    "defective": {
+      "precision": 0.8695652173913043,
+      "recall": 1.0,
+      "f1-score": 0.9302325581395349,
+      "support": 20.0
+    },
+    "accuracy": 0.9375,
+    "macro avg": {
+      "precision": 0.9347826086956521,
+      "recall": 0.9464285714285714,
+      "f1-score": 0.9368143922773147,
+      "support": 48.0
+    },
+    "weighted avg": {
+      "precision": 0.9456521739130435,
+      "recall": 0.9375,
+      "f1-score": 0.9379113646336114,
+      "support": 48.0
+    }
+  }
+}

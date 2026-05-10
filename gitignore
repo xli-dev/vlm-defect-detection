@@ -1,0 +1,28 @@
+# Data (too large for git)
+data/
+
+# Model weights (too large for git)
+results/*.pt
+results/*.pth
+results/vlm_*_adapter/
+
+# Keep result JSONs and plots (small, useful for readers)
+!results/*.json
+!results/*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Wandb
+wandb/
+
+# Mac
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/

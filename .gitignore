@@ -1,0 +1,10 @@
+data/
+results/*.pt
+results/*.pth
+results/vlm_*_adapter/
+__pycache__/
+*.pyc
+venv/
+.venv/
+wandb/
+.DS_Store

@@ -1,0 +1,35 @@
+{
+  "backbone": "ResNet-50 (trained on carpet)",
+  "source": "carpet",
+  "target": "wood",
+  "n_shot": 5,
+  "accuracy": 0.30303030303030304,
+  "auc": 0.16541353383458648,
+  "report": {
+    "good": {
+      "precision": 0.3,
+      "recall": 0.15789473684210525,
+      "f1-score": 0.20689655172413793,
+      "support": 19.0
+    },
+    "defective": {
+      "precision": 0.30434782608695654,
+      "recall": 0.5,
+      "f1-score": 0.3783783783783784,
+      "support": 14.0
+    },
+    "accuracy": 0.30303030303030304,
+    "macro avg": {
+      "precision": 0.3021739130434783,
+      "recall": 0.32894736842105265,
+      "f1-score": 0.29263746505125815,
+      "support": 33.0
+    },
+    "weighted avg": {
+      "precision": 0.3018445322793149,
+      "recall": 0.30303030303030304,
+      "f1-score": 0.27964641757745207,
+      "support": 33.0
+    }
+  }
+}

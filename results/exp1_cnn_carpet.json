@@ -1,0 +1,32 @@
+{
+  "model": "ResNet-50 (frozen backbone + layer4)",
+  "source": "carpet",
+  "test_auc": 0.9482142857142857,
+  "report": {
+    "good": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 28.0
+    },
+    "defective": {
+      "precision": 0.40425531914893614,
+      "recall": 0.95,
+      "f1-score": 0.5671641791044776,
+      "support": 20.0
+    },
+    "accuracy": 0.3958333333333333,
+    "macro avg": {
+      "precision": 0.20212765957446807,
+      "recall": 0.475,
+      "f1-score": 0.2835820895522388,
+      "support": 48.0
+    },
+    "weighted avg": {
+      "precision": 0.1684397163120567,
+      "recall": 0.3958333333333333,
+      "f1-score": 0.23631840796019898,
+      "support": 48.0
+    }
+  }
+}

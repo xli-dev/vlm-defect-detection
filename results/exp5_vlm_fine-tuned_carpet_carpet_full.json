@@ -1,0 +1,35 @@
+{
+  "backbone": "PaliGemma-3B (fine-tuned on carpet)",
+  "source": "carpet",
+  "target": "carpet",
+  "n_shot": null,
+  "accuracy": 1.0,
+  "auc": 1.0,
+  "report": {
+    "good": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 28.0
+    },
+    "defective": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 48.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 48.0
+    }
+  }
+}

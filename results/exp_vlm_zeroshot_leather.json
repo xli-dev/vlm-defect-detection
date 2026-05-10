@@ -1,0 +1,33 @@
+{
+  "model": "PaliGemma-3B-mix (zero-shot)",
+  "category": "leather",
+  "accuracy": 0.6923076923076923,
+  "auc": 0.6,
+  "report": {
+    "good": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 32.0
+    },
+    "defective": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1-score": 0.3333333333333333,
+      "support": 20.0
+    },
+    "accuracy": 0.6923076923076923,
+    "macro avg": {
+      "precision": 0.8333333333333333,
+      "recall": 0.6,
+      "f1-score": 0.5666666666666667,
+      "support": 52.0
+    },
+    "weighted avg": {
+      "precision": 0.7948717948717948,
+      "recall": 0.6923076923076923,
+      "f1-score": 0.6205128205128205,
+      "support": 52.0
+    }
+  }
+}
